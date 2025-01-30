@@ -33,15 +33,13 @@ provengo run --show-sessions Moodle
 ```
 
 5. We repeated steps 1-4 until we were satisfied with the result.
-6. We recorded a video of the running tests and added it to the report. Since more than one browser session was opened, we recorded the entire screen. The link for the video is [here]($$*TODO* write the link$$).
+6. We recorded a video of the running tests and added it to the report. Since more than one browser session was opened, we recorded the entire screen. The video is in the github under submitted files.
 7. We copied the generated graph of the model to a file named [model.pdf](submission-files/model.pdf) inside the submission-files directory.
 
 ### Test files
 
 The test data is in [data.js](Moodle/data/data.js), the set of possible actions is in [actions.js](Moodle/spec/js/actions.js), and the behavior of the system is in [behavior.js](Moodle/spec/js/behavior.js).
 See the files for a detailed description.
-
-$$*TODO*: Make sure that the text inside the files is informative, self-explanatory, and properly written (meaningful variable names, no magic number, etc.). Specifically, write for each bthread a comment that explain what it does and make sure that the bthread's name reflects its purpose. See the file for an example.$$
 
 ## How we tested the system
 
